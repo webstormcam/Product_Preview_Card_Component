@@ -5,6 +5,11 @@
 body {
     background-color: #F2EAE2;
     font-family: 'Fraunces', serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 #card {
@@ -12,12 +17,15 @@ body {
     flex-direction: column;
     align-items: center;
     border-radius: 1rem;
+    max-width: 343px;
+    margin: 0 auto;
 
 }
 
 #product_desc {
     display: flex;
     flex-direction: column;
+    background-color: #ffffff;
 }
 
 #product_img {
