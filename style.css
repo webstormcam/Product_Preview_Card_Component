@@ -23,7 +23,6 @@ body {
     margin: 0 auto;
     padding: 1rem;
     border-radius: 2rem;
-    border: 1px solid red;
     width: 100%;
 
 
@@ -32,6 +31,7 @@ body {
 .perfume {
     margin-bottom: 1rem;
     letter-spacing: 5px;
+    font-size: 12px;
 }
 
 .mon {
@@ -42,6 +42,7 @@ body {
 
 .blurb {
     margin-bottom: 1rem;
+    font-size: 14px;
 }
 
 h1 {
@@ -126,14 +127,25 @@ button {
         justify-content: center;
     }
 
+
+
     #product_img {
         height: 450px;
         width: 50%;
         background-image: url('imgs/image-product-desktop.jpg');
+        border-top-right-radius: 0rem;
+        border-bottom-left-radius: 1rem;
+        width: 300px;
     }
 
     #product_desc {
         width: 50%;
+        height: 450px;
+        width: 300px;
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        border-bottom-left-radius: 0rem;
+        padding: 2rem;
 
     }
 
