@@ -61,6 +61,7 @@ h1 {
     border-bottom-right-radius: 1rem;
     padding: 1.5rem;
 
+
 }
 
 /* #product_img {
@@ -77,6 +78,7 @@ h1 {
     height: 240px;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+
 }
 
 #price_holder {
@@ -136,6 +138,7 @@ button {
         border-top-right-radius: 0rem;
         border-bottom-left-radius: 1rem;
         width: 300px;
+        width: 50%;
     }
 
     #product_desc {
@@ -146,6 +149,7 @@ button {
         border-bottom-right-radius: 1rem;
         border-bottom-left-radius: 0rem;
         padding: 2rem;
+        width: 50%;
 
     }
 
