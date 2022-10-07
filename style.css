@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2EAE2;
+    font-family: 'Fraunces', serif;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+
+}
+
+#product_desc {
+    display: flex;
+    flex-direction: column;
+}
+
+#product_img {
+    width: 100%;
+}
